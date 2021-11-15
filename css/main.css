@@ -25,6 +25,10 @@ body {
   color: var(--primary-color);
 }
 
+.navbar nav {
+  display: none;
+}
+
 .navbar .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -192,11 +196,11 @@ nav {
   height: 100vh;
 }
 
-nav ul.primary-nav {
+ul.primary-nav {
   margin-top: 5em;
 }
 
-nav li a {
+li a {
   color: white;
   text-decoration: none;
   display: block;
@@ -205,11 +209,11 @@ nav li a {
   text-align: right;
 }
 
-nav li a:hover {
+li a:hover {
   font-weight: bold;
 }
 
-nav .mobile-menu-exit {
+.mobile-menu-exit {
   width: 2em;
   height: 2em;
   float: right;
@@ -217,7 +221,7 @@ nav .mobile-menu-exit {
   cursor: pointer;
 }
 
-nav .mobile-menu-exit:hover {
+.mobile-menu-exit:hover {
   width: 2.5em;
   height: 2.5em;
 }
