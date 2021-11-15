@@ -25,10 +25,6 @@ body {
   color: var(--primary-color);
 }
 
-.navbar nav {
-  display: none;
-}
-
 .navbar .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -118,5 +114,104 @@ ul.features-list li:before {
   background-image: url("../images/tick.svg");
   background-size: contain;
   margin-right: 0.5em;
+}
+
+.testimonial-section {
+  background: var(--primary-color);
+  color: white;
+}
+
+.testimonial-section li {
+  background: #006bd6;
+  text-align: center;
+  padding: 2em 1em;
+  width: 80%;
+  margin: 0 auto 5em auto;
+  border-radius: 1em;
+}
+
+.testimonial-section li img {
+  width: 5em;
+  height: 5em;
+  border: 5px solid #006bd6;
+  border-radius: 50%;
+  margin-top: -4.5em;
+}
+
+.contact-section h2 {
+  font-size: 2em;
+}
+
+.contact-section label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 0.1em;
+  border: 1px solid grey;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.contact-section input[type="submit"] {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  font-size: 1.3em;
+  border: none;
+  margin-bottom: 5em;
+  border-radius: 5em;
+  display: inline-block;
+  padding: 0.8em 2em;
+  width: unset;
+  cursor: pointer;
+}
+
+.contact-section iframe {
+  width: 100%;
+  height: 300px;
+}
+
+nav.menu-btn {
+  display: block;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 66%;
+  right: 0;
+  top: 0;
+  background: #20272e;
+  height: 100vh;
+}
+
+nav ul.primary-nav {
+  margin-top: 5em;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0.5em;
+  font-size: 1.3em;
+  text-align: right;
+}
+
+nav li a:hover {
+  font-weight: bold;
+}
+
+nav .mobile-menu-exit {
+  float: right;
+  margin: 0.5em;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
