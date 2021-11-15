@@ -210,8 +210,15 @@ nav li a:hover {
 }
 
 nav .mobile-menu-exit {
+  width: 2em;
+  height: 2em;
   float: right;
   margin: 0.5em;
   cursor: pointer;
+}
+
+nav .mobile-menu-exit:hover {
+  width: 2.5em;
+  height: 2.5em;
 }
 /*# sourceMappingURL=main.css.map */
